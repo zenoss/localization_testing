@@ -155,16 +155,3 @@ get_local_counters $Interfaces
 write-host "`nethernetCsmacd - 2012`n"
 get_local_counters $Adapters
 
-<# Remove this line and last comment line to execute this part of the script
-write-host "`nActive Directory`n"
-get_local_counters $ActiveDirectory
-
-write-host "`nExchange 2007 & 2010`n"
-get_local_counters $Exchange_2007_2010
-
-write-host "`nExchange 2013`n"
-get_local_counters $Exchange_2013
-
-write-host "`nIIS`n"
-get_local_counters $IIS
-#>
